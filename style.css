@@ -1,0 +1,51 @@
+.container{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+#game{
+    width: 1000px;
+    height: 600px;
+    border: 1px solid;
+    background-image: url(https://i1.wp.com/www.albertopasca.it/whiletrue/wp-content/uploads/2014/02/MarioBackground-scrolling-top.png);
+}
+#pipe{
+    width: 100px;
+    height: 600px;
+    position: relative;
+    left: 900px;
+    background-image: url(https://img-blog.csdnimg.cn/20210813104927699.png);
+    animation: pipe 4s infinite linear;
+}
+#pipe-gap{
+    width: 100px;
+    height: 200px;
+    position: relative;
+    background-color: #8FB3F9;
+    border-radius: 20px;
+    top: 200px;
+}
+#bird{
+    position: relative;
+    top: -300px;
+}
+#bird img{
+    width: 50px;
+    height: 50px;
+}
+.score-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+
+
+@keyframes pipe {
+    0%{
+        left: 900px;
+    }
+    100%{
+        left: -100px;
+    }
+}

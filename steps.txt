@@ -1,0 +1,9 @@
+1.Create elements - pipe, bird, pipe gaps 
+2.Animation 
+3.Random pipe gap 
+4.Bird gravitty effect 
+5.detect collission 
+    5.1 : Ground collission
+6.Bird jumb
+    5.2 : pipe collission
+7.score calculation 
